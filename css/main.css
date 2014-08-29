@@ -1,0 +1,71 @@
+/*nav*/
+
+nav {
+	text-align: right;
+	padding: 15px 5px;
+	margin: -10px 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+
+
+nav ul li a {
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 0.8em;
+	padding: 10px 10px;
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+/*signIn link*/
+#signIn{
+	color: #fff;
+	font-size: 0.9em;
+	font-weight: 650;
+	border: 1px solid #4285f4;
+	background: #4683ea;
+	margin: 0.75em 0.75em;
+	padding: 6px 12px;
+	border-radius: 2px;
+}
+/*the whole body including the logo*/
+div {
+	text-align: center;
+	margin: 7em 0 0 0;
+	line-height: 10px;
+}
+
+/*the search space*/
+#searchSpace {
+	color: blue;
+	width: 580px;
+	height: 22px;
+	font-size: 18px;
+	border: 1px solid 0.8;
+}
+/*search and lucky button*/
+
+#gSearch,
+#lucky{
+	color: #000;
+	font-size: 0.9em;
+	font-weight: 650;
+	border: 1px solid #DCDCDC;
+	background-color: #efefef;
+	margin: 0.75em 0.75em;
+	padding: 6px 12px;
+	border-radius: 2px;
+}
