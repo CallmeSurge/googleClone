@@ -5,34 +5,50 @@
 		<title>Google Clone by CallmeSurge</title>
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/main.css">
-		<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+		<link rel="stylesheet" href="css/responsive.css">
+		<meta name="viewport" content="width = device-width, initial-scale = 1.0"> <!--copied this from my previous project to support viewport-->
 	</head>
 	<body>
 		<header>
-			<nav>
-				<ul id="top">
+			<nav class="top">
+				<ul>
 					<li><a href="#">+You</a></li>
 					<li><a href="#">Gmail</a></li>
 					<li><a href="#">Images</a></li>	
+					<li><img id="icon" src="img/icon1.png"></li>
 					<li><button id="signIn" type="submit">Sign in</button></li>
 				</ul>
 			</nav>
 		</header>
 		<section>
-		<div>
+		<div id="wrapper">
+			<br></br>
 			<img src="img/google.jpg">
 			<br></br>
-			<input id="searchSpace" type="text" name="search">
+			<div id="searchBar">
+				<input id="searchSpace" type="text" name="search">
+				<input id="searchButton" type="button" name="search">
+			</div>
 			<br></br>
 			<button id="gSearch" type="submit">Google Search</button>
 			<button id="lucky" type="submit">I'm Feeling Lucky</button>
+			<br></br>
+			<br></br>
+			<p style="line-height: 2.0em;">Google.com.ng offered in:  <a href="#" class="lang-links">Harshen</a><a href="#" class="lang-links">Hausa</a><a href="#" class="lang-links">Asụsụ Igbo</a>  <a href="#" class="lang-links">Èdè Yorùbá</a>  <a href="#" class="lang-links">Pidgin</a></p>
 		</div>
-				<!-- <input type = "submit" name = ""> -->
-			<ul>
-				<li></li>
-				<li></li>		
-			</ul>
 		</section>
+		<footer class="foot">
+				<ul id="foot1">
+					<li><a href="#" class="foot-links">Advertising</a></li>
+					<li><a href="#" class="foot-links">Business</a></li>
+					<li><a href="#" class="foot-links">About</a></li>
+				</ul>
+				<ul id="foot2">
+					<li><a href="#" class="foot-links">Use Google.com</a></li>
+					<li><a href="#" class="foot-links">Settings</a></li>
+					<li><a href="#" class="foot-links">Privacy & Terms</a></li>
+				</ul>
+		</footer>
 	</body>
 
 </html>
