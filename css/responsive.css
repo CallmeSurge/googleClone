@@ -2,13 +2,17 @@
 
 
 	.foot {
-		height: 20%;
+		height: 15%;
 	}
 	#gSearch, #lucky {
 		display: block;
 		width: 90%;
 		margin: 0 auto;
 		margin-bottom: 0.6em;
+	}
+	
+	#foot2 li {
+		clear: left;
 	}
 }
 
